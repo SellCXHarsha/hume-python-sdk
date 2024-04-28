@@ -88,7 +88,7 @@ class HumeBatchClient(ClientBase):
             notify (Optional[bool]): Wether an email notification should be sent upon job completion.
             files (Optional[List[Union[str, Path]]]): List of paths to files on the local disk to be processed.
             text (Optional[List[str]]): List of strings (raw text) to be processed.
-
+client
         Returns:
             BatchJob: The `BatchJob` representing the batch computation.
         """
